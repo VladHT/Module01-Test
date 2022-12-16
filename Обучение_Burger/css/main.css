@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.zagol{
+    font-size: 70px;
+    text-align: center;
+    color: rgba(163, 76, 163, .3);
+    letter-spacing: 12px;
+    font-family: none;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9)), url(../img/bg.png);
+    font-family: 'Pacifico', Arial, Helvetica, sans-serif;
+}   
+p{
+    color: rgb(7, 7, 7);
+    text-align: center;
+}
+.glav{
+    width: 40%;
+    height: 30%;
+    background-color: antiquewhite;
+    border: rgb(3, 3, 3) double 5px ;
+    border-radius: 15px;
+}
+ol {
+    display: flex;
+    list-style-type: none;
+}
+ol > li {
+    margin: 5px 15px;
+}
+.bottom{
+    background-color: antiquewhite;
+    border: solid ;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.info{
+    background-color: antiquewhite;
+    border: solid ;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
