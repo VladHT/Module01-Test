@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'Anton';
+}
+.verh{
+    position: absolute;
+width: 1600px;
+height: 900px;
+left: 0px;
+top: 0px;
+background: linear-gradient(105.89deg, rgba(0, 0, 0, 0.37) 5.05%, rgba(0, 0, 0, 0.15) 112.97%), url(../img/header-bg.jpg) ;
+background-size: cover;
+}
+
+.verh-vnutri{
+    box-sizing: border-box;
+
+position: absolute;
+width: 1172px;
+height: 781px;
+left: 213px;
+top: 57px;
+}
+
+.verh-vnutri-verha{
+    display: flex;
+justify-content: space-between;
+position: absolute;
+width: 1169px;
+height: 48px;
+align-items: center;
+}
+
+.seredina-verha{
+    box-sizing: border-box;
+
+position: absolute;
+width: 1166.01px;
+height: 257px;
+top: 261px;
+}
+
+.info{
+    position: absolute;
+width: 1600px;
+height: 946px;
+top: 900px;
+}
+
+.info-fnutri{
+    box-sizing: border-box;
+
+position: absolute;
+width: 1172px;
+height: 883px;
+left: 213px;
+
+}
+
+.verh-vnutri-info{
+    display: flex;
+position: absolute;
+align-items: center;
+width: 1166.01px;
+height: 45px;
+top:126px;
+justify-content: space-between;
+font-size: 50px;
+}
+
+.seredina-info{
+    display: flex;
+position: absolute;
+width: 1164.01px;
+height: 243px;
+top:244px;
+}
+
+.niz-info{
+    display: flex;
+    box-sizing: border-box;
+position: absolute;
+width: 1160.02px;
+height: 344px;
+top: 571px;
+}
+
+.pod{
+    position: absolute;
+width: 1600px;
+height: 137px;
+top: 1882px;
+}
+
+.pod-vnutri{
+    box-sizing: border-box;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 1160px;
+    height: 16px;
+    left:213px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding-inline-start: 20px;
+}
+li{
+    margin:15px;
+   font-weight: 400px;
+}
+.verh-vnutri-verha a{
+    text-decoration: none;
+    text-transform: none;
+    vertical-align: middle; 
+    color: #fff;
+}
+
+.verh-vnutri-verha span{
+    color: #fff;
+    font-size: 20px;
+    vertical-align: middle;
+    font-weight:lighter;
+}
+
+.seredina-verha h1{
+    font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 151px;
+text-transform: uppercase;
+margin: 0;
+color: #FFFFFF;
+}
+
+.seredina-verha h2{
+    font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+margin: 0;
+color: #FFFFFF;
+
+}
+
+.seredina-verha h3{
+    font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+margin: 0;
+color: #FFFFFF;
+}
+
+.niz-seredina{
+    box-sizing: border-box;
+    position: absolute;
+border: #fff 1px solid;
+padding: 13px;
+}
+
+.niz-seredina a{
+    text-decoration: none;
+    text-transform: none;
+    color: #fff;
+
+}
+
+.pod-vnutri p{
+    font-size: smaller;
+    padding-right: 70px;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: 'Open Sans';
+}
+
+.seredina-info p{
+    font-family: 'Open Sans';
+}
+
+.text1{
+    padding-right: 25px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+.text2{
+padding-left: 25px;
+margin-left: 15px;
+text-align: justify;
+}
+.niz-info section{
+    padding-right: 30px;
+}
