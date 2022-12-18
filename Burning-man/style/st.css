@@ -3,6 +3,7 @@
 
 body{
     font-family: 'Anton';
+    background: linear-gradient(105.89deg, rgba(0, 0, 0, 0.37) 5.05%, rgba(0, 0, 0, 0.15) 112.97%), #fff
 }
 .verh{
     position: absolute;
@@ -47,6 +48,7 @@ top: 261px;
 width: 1600px;
 height: 946px;
 top: 900px;
+background: #fff;
 }
 
 .info-fnutri{
@@ -89,9 +91,12 @@ top: 571px;
 
 .pod{
     position: absolute;
+    display: flex;
+    align-items: center;
 width: 1600px;
-height: 137px;
-top: 1882px;
+height: 145px;
+top: 1840px;
+background: #fff;
 }
 
 .pod-vnutri{
@@ -203,4 +208,11 @@ text-align: justify;
 }
 .niz-info section{
     padding-right: 30px;
+}
+.seredina{
+    position: absolute;
+    width: 1600px;
+    height: 2058px;
+    top: 0;
+    left: 400px;
 }
