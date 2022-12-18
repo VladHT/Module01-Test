@@ -173,7 +173,8 @@ color: #FFFFFF;
     box-sizing: border-box;
     position: absolute;
 border: #fff 1px solid;
-padding: 13px;
+padding: 13px 50px 13px 50px;
+
 }
 
 .niz-seredina a{
@@ -214,5 +215,5 @@ text-align: justify;
     width: 1600px;
     height: 2058px;
     top: 0;
-    left: 400px;
+    left: 120px;
 }
