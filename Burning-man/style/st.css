@@ -71,8 +71,6 @@ margin-left: auto;
 .info-fnutri{
     display: flex;
     flex-wrap: wrap;
-max-width: 1920px;
-max-height: 883px;
 margin: 0 215px ;
 padding-top: 113px;
 }
@@ -91,7 +89,7 @@ margin-bottom: 58px;
 .seredina-info{
     display: flex;
 max-width: 1164.01px;
-max-height: 243px;
+
 top:244px;
 }
 
@@ -104,12 +102,7 @@ top: 571px;
 
 .pod{
     display: flex;
-    align-items: center;
-    max-width: 1920px;
-    max-height: 100%;
 background: #fff;
-margin-right: auto;
-margin-left: auto;
 padding: 114px 841px 80px 216px;
 }
 
