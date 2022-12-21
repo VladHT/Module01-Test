@@ -3,7 +3,7 @@
 
 body{
     font-family: 'Anton';
-    background: linear-gradient(105.89deg, rgba(0, 0, 0, 0.37) 5.05%, rgba(0, 0, 0, 0.15) 112.97%), #fff
+    background: rgb(87, 83, 83);
     
 }
 .verh{
@@ -15,7 +15,6 @@ margin-left: auto;
 background:url(../img/header-bg.jpg) no-repeat;
 background-size: cover;
 margin: 0 auto;
-
 }
 
 .verh-vnutri{
@@ -58,12 +57,9 @@ color: #FFFFFF;
 }
 
 .info{
-    max-width: 1920px;
-    height: 100%;
 top: 900px;
 background: #fff;
 margin: 0 auto;
-
 margin-right: auto;
 margin-left: auto;
 }
@@ -101,18 +97,15 @@ top: 571px;
 }
 
 .pod{
-    display: flex;
 background: #fff;
-padding: 114px 841px 80px 216px;
+margin-left: auto;
+margin-right: auto;
 }
 
-.pod-vnutri{
+.pod p{
 
     display: flex;
     align-items: center;
-    max-width: 1160px;
-    max-height: 16px;
-    left:213px;
 }
 
 ul{
@@ -171,7 +164,7 @@ padding: 13px 50px 13px 50px;
 
 }
 
-.pod-vnutri p{
+.pod p{
     font-size: smaller;
     padding-right: 70px;
     font-size: 16px;
@@ -179,7 +172,7 @@ padding: 13px 50px 13px 50px;
     font-family: 'Open Sans';
 }
 
-.pod-vnutri a{
+.pod a{
     font-family: 'Open Sans';
     text-decoration: none;
     text-transform: none;
